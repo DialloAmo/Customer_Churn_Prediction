@@ -6,20 +6,17 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Env / secrets
+# Environments / secrets
 .env
 .venv/
 venv/
 
-# Data / models (ne pas versionner si volumineux)
-data/
-models/
+# macOS
+.DS_Store
 
-# OS
-.DS_Store
-data/
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
-.env
-.venv/
+# Generated data
+data/interim/*
+data/processed/*
+
+# Trained models / artifacts
+models/*
