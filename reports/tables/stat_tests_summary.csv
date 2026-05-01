@@ -1,0 +1,4 @@
+variable,test,p_value,significantif
+tenure,Mann-Whitney,0.001,True
+MonthlyCharges,Mann-Whitney,0.02,True
+Contract,Chi2_contingency,0.0001,True
